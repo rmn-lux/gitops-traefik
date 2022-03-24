@@ -13,6 +13,7 @@ spec:
             - "--entryPoints.websecure.address=:8443/tcp"
             - "--entryPoints.traefik.address=:9000/tcp"
             - "--api=true"
+            - "--api.insecure=true"
             - "--api.dashboard=true"
             - "--ping=true"
             - "--providers.kubernetescrd"
